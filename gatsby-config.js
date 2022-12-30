@@ -8,5 +8,9 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  plugins: [],
+  siteMetadata: {
+    title: 'FullStack Developer',
+    author: 'Lolo'
+  },
+  plugins: [`gatsby-plugin-sass`],
 }
